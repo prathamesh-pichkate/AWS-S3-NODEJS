@@ -19,9 +19,9 @@ npm install
 ### 2. AWS Credentials Setup
 Set up your AWS credentials in an **.env** file:
 ```
-AWS_DEFAULT_REGION=your-region
 AWS_ACCESS_KEY_ID=your-access-key
 AWS_SECRET_ACCESS_KEY=your-secret-key
+AWS_DEFAULT_REGION=your-region
 S3_BUCKET_NAME=your-bucket-name
 ```
 

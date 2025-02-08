@@ -1,0 +1,12 @@
+{
+  "name": "new-bucket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.743.0",
+    "@aws-sdk/s3-request-presigner": "^3.743.0",
+    "dotenv": "^16.4.7"
+  }
+}

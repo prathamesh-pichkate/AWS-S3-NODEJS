@@ -8,15 +8,19 @@ This project demonstrates how to generate pre-signed URLs for Amazon S3 objects 
 - List objects inside a specific bucket folder.
 - Delete objects from the S3 bucket.
 
-## Prerequisites
+## Installation & Usage
 
-### 1. Install Dependencies
+### 1. Clone the Repository
+```sh
+git clone https://github.com/prathamesh-pichkate/AWS-S3-NODEJS.git
+```
+### 2. Install Dependencies
 Ensure you have **Node.js** installed, then run:
 ```sh
 npm install
 ```
 
-### 2. AWS Credentials Setup
+### 3. AWS Credentials Setup
 Set up your AWS credentials in an **.env** file:
 ```
 AWS_ACCESS_KEY_ID=your-access-key
@@ -25,14 +29,7 @@ AWS_DEFAULT_REGION=your-region
 S3_BUCKET_NAME=your-bucket-name
 ```
 
-## Installation & Usage
-
-### 1. Clone the Repository
-```sh
-git clone https://github.com/prathamesh-pichkate/AWS-S3-NODEJS.git
-```
-
-### 2. Run the Script
+### 4. Run the Script
 ```sh
 node index.js
 ```

@@ -29,8 +29,7 @@ S3_BUCKET_NAME=your-bucket-name
 
 ### 1. Clone the Repository
 ```sh
-git clone https://github.com/yourusername/s3-signedurl
-cd s3-signedurl
+git clone https://github.com/prathamesh-pichkate/AWS-S3-NODEJS.git
 ```
 
 ### 2. Run the Script
